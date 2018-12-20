@@ -148,14 +148,23 @@ int main(void)
   MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
 
+  HAL_GPIO_WritePin(Pwr_Mux_EN_GPIO_Port,Pwr_Mux_EN_Pin,GPIO_PIN_SET);	//Enable auto power supply selection (VUSB or VBat)
+  HAL_GPIO_WritePin(Reg_5V_EN_GPIO_Port,Reg_5V_EN_Pin,GPIO_PIN_SET);	//Enable 5V power supply (Analog detection)
+  HAL_GPIO_WritePin(Reg_33_EN_GPIO_Port, Reg_33_EN_Pin, GPIO_PIN_SET);	//Enable 3.3V Power supply (Screen + BLE)
+  HAL_GPIO_WritePin(Trigger_source_sel1_GPIO_Port, Trigger_source_sel1_Pin, GPIO_PIN_RESET);	//Set trigger input to external while analog part of circuit is not tested
+
+
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  HAL_GPIO_TogglePin(Status_LED_GPIO_Port, Status_LED_Pin);
+	  HAL_GPIO_TogglePin(IR_LED_GPIO_Port, IR_LED_Pin);
+	  HAL_Delay(500);
     /* USER CODE END WHILE */
-
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
