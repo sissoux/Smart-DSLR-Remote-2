@@ -80,8 +80,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define VUSB_INTERNAL_EN_Pin GPIO_PIN_13
-#define VUSB_INTERNAL_EN_GPIO_Port GPIOC
+#define VUSB_OUT_EN_Pin GPIO_PIN_13
+#define VUSB_OUT_EN_GPIO_Port GPIOC
 #define Touch_YP_Pin GPIO_PIN_0
 #define Touch_YP_GPIO_Port GPIOC
 #define Touch_XM_Pin GPIO_PIN_1
@@ -92,8 +92,8 @@ void Error_Handler(void);
 #define Touch_YM_GPIO_Port GPIOC
 #define Charger_Current_Pin GPIO_PIN_0
 #define Charger_Current_GPIO_Port GPIOA
-#define Backlight_PWM_Pin GPIO_PIN_1
-#define Backlight_PWM_GPIO_Port GPIOA
+#define Backlight_pwm_Pin GPIO_PIN_1
+#define Backlight_pwm_GPIO_Port GPIOA
 #define LCD_RST_Pin GPIO_PIN_2
 #define LCD_RST_GPIO_Port GPIOA
 #define LCD_DC_Pin GPIO_PIN_3
@@ -110,16 +110,16 @@ void Error_Handler(void);
 #define Aux_5V_EN_GPIO_Port GPIOC
 #define Trigger_Analog_Comp_Pin GPIO_PIN_5
 #define Trigger_Analog_Comp_GPIO_Port GPIOC
-#define Trigger_Analog_Pin GPIO_PIN_0
-#define Trigger_Analog_GPIO_Port GPIOB
+#define Trigger_Analog_In_Pin GPIO_PIN_0
+#define Trigger_Analog_In_GPIO_Port GPIOB
 #define Trigger_source_sel1_Pin GPIO_PIN_1
 #define Trigger_source_sel1_GPIO_Port GPIOB
 #define Trigger_source_sel2_Pin GPIO_PIN_2
 #define Trigger_source_sel2_GPIO_Port GPIOB
-#define Ext_I2C_SCL_Pin GPIO_PIN_10
-#define Ext_I2C_SCL_GPIO_Port GPIOB
-#define Ext_I2C_SDA_Pin GPIO_PIN_11
-#define Ext_I2C_SDA_GPIO_Port GPIOB
+#define Status_LED_Pin GPIO_PIN_10
+#define Status_LED_GPIO_Port GPIOB
+#define IR_LED_Pin GPIO_PIN_11
+#define IR_LED_GPIO_Port GPIOB
 #define DSLR_Shutter_EN_Pin GPIO_PIN_12
 #define DSLR_Shutter_EN_GPIO_Port GPIOB
 #define DSLR_Focus_EN_Pin GPIO_PIN_13
@@ -128,14 +128,14 @@ void Error_Handler(void);
 #define Flash1_EN_GPIO_Port GPIOB
 #define Flash2_EN_Pin GPIO_PIN_15
 #define Flash2_EN_GPIO_Port GPIOB
-#define Charger_status_Pin GPIO_PIN_6
-#define Charger_status_GPIO_Port GPIOC
-#define PwrMux_Stat_Pin GPIO_PIN_7
-#define PwrMux_Stat_GPIO_Port GPIOC
+#define Charger_Status_Pin GPIO_PIN_6
+#define Charger_Status_GPIO_Port GPIOC
+#define PwrMux_Status_Pin GPIO_PIN_7
+#define PwrMux_Status_GPIO_Port GPIOC
 #define Reg_5V_EN_Pin GPIO_PIN_8
 #define Reg_5V_EN_GPIO_Port GPIOC
-#define Reg_33_EN_Pin GPIO_PIN_9
-#define Reg_33_EN_GPIO_Port GPIOC
+#define Reg_3V3_EN_Pin GPIO_PIN_9
+#define Reg_3V3_EN_GPIO_Port GPIOC
 #define USB_OTG_EN_Pin GPIO_PIN_8
 #define USB_OTG_EN_GPIO_Port GPIOA
 #define USB_VBUS_LV_Pin GPIO_PIN_9
@@ -146,8 +146,8 @@ void Error_Handler(void);
 #define USB_DM_GPIO_Port GPIOA
 #define USB_DP_Pin GPIO_PIN_12
 #define USB_DP_GPIO_Port GPIOA
-#define Pwr_Mux_EN_Pin GPIO_PIN_10
-#define Pwr_Mux_EN_GPIO_Port GPIOC
+#define PwrMux_EN_Pin GPIO_PIN_10
+#define PwrMux_EN_GPIO_Port GPIOC
 #define BLE_CMD_Pin GPIO_PIN_12
 #define BLE_CMD_GPIO_Port GPIOC
 #define BLE_HW_Wake_Pin GPIO_PIN_2
@@ -160,12 +160,12 @@ void Error_Handler(void);
 #define BLE_SW_Wake_GPIO_Port GPIOB
 #define BLE_TX_Pin GPIO_PIN_6
 #define BLE_TX_GPIO_Port GPIOB
-#define BLE_RX_Pin GPIO_PIN_7
-#define BLE_RX_GPIO_Port GPIOB
-#define Status_LED_Pin GPIO_PIN_8
-#define Status_LED_GPIO_Port GPIOB
-#define IR_LED_Pin GPIO_PIN_9
-#define IR_LED_GPIO_Port GPIOB
+#define BLE_TXB7_Pin GPIO_PIN_7
+#define BLE_TXB7_GPIO_Port GPIOB
+#define Internal_I2C_SCL_Pin GPIO_PIN_8
+#define Internal_I2C_SCL_GPIO_Port GPIOB
+#define Internal_I2C_SDA_Pin GPIO_PIN_9
+#define Internal_I2C_SDA_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
