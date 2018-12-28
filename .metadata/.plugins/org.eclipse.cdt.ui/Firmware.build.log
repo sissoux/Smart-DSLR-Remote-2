@@ -1,6 +1,23 @@
-17:54:23 **** Incremental Build of configuration Debug for project Firmware ****
+17:10:13 **** Incremental Build of configuration Debug for project Firmware ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16048	     24	   2344	  18416	   47f0	Firmware.elf
+ 
 
-17:54:24 Build Finished (took 413ms)
+17:10:14 Build Finished (took 1s.814ms)
 

@@ -747,3 +747,1435 @@ arm-none-eabi-size "Firmware.elf"
 17:54:23 **** Incremental Build of configuration Debug for project Firmware ****
 make all 
 make: Nothing to be done for 'all'.
+15:18:50 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_comp.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_comp.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_comp.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_comp.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_comp.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_comp.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dac_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rtc_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c
+ 
+Building file: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c"
+Finished building: ../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c
+ 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:157:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(1000);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:164:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:182:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:157:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(1000);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building file: ../Core/Src/system_stm32l4xx.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" -o "Core/Src/system_stm32l4xx.o" "../Core/Src/system_stm32l4xx.c"
+Finished building: ../Core/Src/system_stm32l4xx.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15944	     24	   2344	  18312	   4788	Firmware.elf
+ 
+15:20:23 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:157:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:164:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:182:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:157:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15944	     24	   2344	  18312	   4788	Firmware.elf
+ 
+15:28:54 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:157:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:164:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:182:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:157:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15944	     24	   2344	  18312	   4788	Firmware.elf
+ 
+15:40:26 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:159:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:166:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:184:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:159:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15968	     24	   2344	  18336	   47a0	Firmware.elf
+ 
+15:41:27 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:159:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:166:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:184:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:159:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15968	     24	   2344	  18336	   47a0	Firmware.elf
+ 
+15:44:18 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:160:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:167:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:185:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:160:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15976	     24	   2344	  18344	   47a8	Firmware.elf
+ 
+15:44:26 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:160:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:167:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:185:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:160:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15976	     24	   2344	  18344	   47a8	Firmware.elf
+ 
+15:45:01 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:17 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:45:32 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:46:09 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:47:00 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:47:57 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:160:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:167:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:185:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:160:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15992	     24	   2344	  18360	   47b8	Firmware.elf
+ 
+15:49:30 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:160:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:167:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:185:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:160:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15976	     24	   2344	  18344	   47a8	Firmware.elf
+ 
+15:49:54 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:160:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h:168:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_rcc.h:45,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:222,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l486xx.h:1449:29: warning: passing argument 2 of 'HAL_GPIO_TogglePin' makes integer from pointer without a cast [-Wint-conversion]
+ #define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                             ^
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:120:30: note: in expansion of macro 'GPIOB'
+ #define Status_LED_GPIO_Port GPIOB
+                              ^~~~~
+../Core/Src/main.c:170:45: note: in expansion of macro 'Status_LED_GPIO_Port'
+    HAL_GPIO_TogglePin(Status_LED_GPIO_Port, Status_LED_GPIO_Port);
+                                             ^~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:231:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h:289:19: note: expected 'uint16_t {aka short unsigned int}' but argument is of type 'GPIO_TypeDef * {aka struct <anonymous> *}'
+ void              HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
+                   ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:167:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:185:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:160:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16000	     24	   2344	  18368	   47c0	Firmware.elf
+ 
+15:50:22 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:160:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:167:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:185:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:160:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16000	     24	   2344	  18368	   47c0	Firmware.elf
+ 
+15:50:37 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:160:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:167:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:185:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:160:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16000	     24	   2344	  18368	   47c0	Firmware.elf
+ 
+15:50:44 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:50:50 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:05 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:09 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:51:50 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+15:54:56 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:162:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:169:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:187:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:162:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16008	     24	   2344	  18376	   47c8	Firmware.elf
+ 
+15:56:12 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:188:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16024	     24	   2344	  18392	   47d8	Firmware.elf
+ 
+15:58:06 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:188:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16000	     24	   2344	  18368	   47c0	Firmware.elf
+ 
+16:10:38 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:171:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart1, "S-,MonBT", 8, 5000);
+                              ^~~~~~~~~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:380:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1597:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:174:3: error: expected ';' before 'while'
+   while (1)
+   ^~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:191:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/main.o] Error 1
+Core/Src/subdir.mk:27: recipe for target 'Core/Src/main.o' failed
+16:10:47 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:171:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   HAL_UART_Transmit(&huart1, "S-,MonBT", 8, 5000);
+                              ^~~~~~~~~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:380:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1597:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:191:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16536	     24	   2344	  18904	   49d8	Firmware.elf
+ 
+16:13:38 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:171:30: warning: passing argument 2 of 'HAL_UART_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+   HAL_UART_Transmit(&huart1, 'D', 1, 5000);
+                              ^~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:380:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1597:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'int'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:191:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16512	     24	   2344	  18880	   49c0	Firmware.elf
+ 
+16:16:39 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:173:57: error: lvalue required as left operand of assignment
+   if (aRxBuffer[1]= 'C'&&aRxBuffer[2]= 'M'&&aRxBuffer[3]= 'D')
+                                                         ^
+../Core/Src/main.c:175:31: warning: passing argument 2 of 'HAL_UART_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+    HAL_UART_Transmit(&huart1, 'D', 1, 5000);
+                               ^~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:380:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1597:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'int'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:197:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Core/Src/subdir.mk:27: recipe for target 'Core/Src/main.o' failed
+make: *** [Core/Src/main.o] Error 1
+16:17:05 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:175:31: warning: passing argument 2 of 'HAL_UART_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+    HAL_UART_Transmit(&huart1, 'D', 1, 5000);
+                               ^~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:380:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1597:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'int'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:197:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16560	     24	   2344	  18928	   49f0	Firmware.elf
+ 
+16:17:10 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:18:48 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:175:31: warning: passing argument 2 of 'HAL_UART_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+    HAL_UART_Transmit(&huart1, 'D', 1, 5000);
+                               ^~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:380:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1597:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'int'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:180:32: warning: passing argument 2 of 'HAL_UART_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+     HAL_UART_Transmit(&huart1, 'D', 1, 5000);
+                                ^~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:380:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1597:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'int'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:201:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16576	     24	   2344	  18944	   4a00	Firmware.elf
+ 
+16:22:25 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:176:31: warning: passing argument 2 of 'HAL_UART_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+    HAL_UART_Transmit(&huart1, 'D', 1, 5000);
+                               ^~~
+In file included from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/stm32l4xx_hal_conf.h:380:0,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:46,
+                 from C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:51,
+                 from ../Core/Src/main.c:42:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1597:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'int'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:42:0:
+C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc/main.h:70:44: warning: implicit declaration of function 'COUNTOF' [-Wimplicit-function-declaration]
+ #define TXBUFFERSIZE                      (COUNTOF(aTxBuffer) - 1)
+                                            ^
+../Core/Src/main.c:181:54: note: in expansion of macro 'TXBUFFERSIZE'
+     HAL_UART_Transmit(&huart1, (uint8_t *)aTxBuffer, TXBUFFERSIZE, 5000);
+                                                      ^~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:202:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building file: ../Core/Src/stm32l4xx_hal_msp.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" -o "Core/Src/stm32l4xx_hal_msp.o" "../Core/Src/stm32l4xx_hal_msp.c"
+Finished building: ../Core/Src/stm32l4xx_hal_msp.c
+ 
+Building file: ../Core/Src/stm32l4xx_it.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" -o "Core/Src/stm32l4xx_it.o" "../Core/Src/stm32l4xx_it.c"
+Finished building: ../Core/Src/stm32l4xx_it.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Core/Src/main.o: In function `main':
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug/../Core/Src/main.c:181: undefined reference to `COUNTOF'
+collect2.exe: error: ld returned 1 exit status
+makefile:35: recipe for target 'Firmware.elf' failed
+make: *** [Firmware.elf] Error 1
+16:23:08 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:202:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16576	     24	   2344	  18944	   4a00	Firmware.elf
+ 
+16:23:20 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:24:15 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:202:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16576	     24	   2344	  18944	   4a00	Firmware.elf
+ 
+16:24:17 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:24:31 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:24:36 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:25:03 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:25:32 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:26:19 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:26:42 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:04 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:11 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:19 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:27 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:33 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:38 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:28:43 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:29:16 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:202:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building file: ../Core/Src/stm32l4xx_hal_msp.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" -o "Core/Src/stm32l4xx_hal_msp.o" "../Core/Src/stm32l4xx_hal_msp.c"
+Finished building: ../Core/Src/stm32l4xx_hal_msp.c
+ 
+Building file: ../Core/Src/stm32l4xx_it.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" -o "Core/Src/stm32l4xx_it.o" "../Core/Src/stm32l4xx_it.c"
+Finished building: ../Core/Src/stm32l4xx_it.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16000	     24	   2344	  18368	   47c0	Firmware.elf
+ 
+16:30:12 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:39:24 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+16:39:59 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:170:7: warning: unused variable 'BacklightBrightness' [-Wunused-variable]
+   int BacklightBrightness = 0;
+       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:202:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16576	     24	   2344	  18944	   4a00	Firmware.elf
+ 
+16:40:29 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:201:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16576	     24	   2344	  18944	   4a00	Firmware.elf
+ 
+16:42:04 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:199:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16576	     24	   2344	  18944	   4a00	Firmware.elf
+ 
+16:42:21 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:199:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16576	     24	   2344	  18944	   4a00	Firmware.elf
+ 
+16:43:52 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:163:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:199:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:163:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16576	     24	   2344	  18944	   4a00	Firmware.elf
+ 
+17:01:53 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16160	     24	   2344	  18528	   4860	Firmware.elf
+ 
+17:04:23 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+make: Nothing to be done for 'all'.
+17:05:05 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16160	     24	   2344	  18528	   4860	Firmware.elf
+ 
+17:10:13 **** Incremental Build of configuration Debug for project Firmware ****
+make all 
+Building file: ../Core/Src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+Finished building: ../Core/Src/main.c
+ 
+Building target: Firmware.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nosys.specs -specs=nano.specs -T"../STM32L486RGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "Firmware.elf" @"objects.list"   -lm
+Finished building target: Firmware.elf
+ 
+make --no-print-directory post-build
+Generating hex and Printing size information:
+arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
+arm-none-eabi-size "Firmware.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16048	     24	   2344	  18416	   47f0	Firmware.elf
+ 

@@ -154,18 +154,24 @@ int main(void)
   HAL_GPIO_WritePin(Reg_3V3_EN_GPIO_Port, Reg_3V3_EN_Pin, GPIO_PIN_SET);
   HAL_GPIO_WritePin(Status_LED_GPIO_Port, Status_LED_Pin, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(IR_LED_GPIO_Port, IR_LED_Pin, GPIO_PIN_RESET);
-  UpdateLCDBrightness(0);
+
+  HAL_GPIO_WritePin(Trigger_source_sel1_GPIO_Port, Trigger_source_sel1_Pin, GPIO_PIN_SET);	//SET : Mic in RESET : Light in
+  HAL_GPIO_WritePin(Trigger_source_sel2_GPIO_Port, Trigger_source_sel2_Pin, GPIO_PIN_SET);		//SET: Internal RESET : External
+
+  HAL_DAC_SetValue(&hdac1, DAC1_CHANNEL_1, DAC_ALIGN_12B_L, 2000);
+  HAL_DAC_SetValue(&hdac1, DAC1_CHANNEL_2, DAC_ALIGN_12B_L, 2100);
+  HAL_COMP_GetOutputLevel(&hcomp1);
+  //HAL_COMP_Start_IT(&hcomp1);
 
   //HAL_GPIO_WritePin(Backlight_pwm_GPIO_Port,Backlight_pwm_Pin,GPIO_PIN_SET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  int BacklightBrightness = 0;
   while (1)
   {
 	  //HAL_GPIO_TogglePin(Status_LED_GPIO_Port, Status_LED_Pin);
-	  HAL_Delay(20);
+	  HAL_Delay(1000);
 	  //BacklightBrightness = (BacklightBrightness+10)%1000;
 
     /* USER CODE END WHILE */
@@ -176,15 +182,24 @@ int main(void)
 }
 
 /**
+  * @brief  Comparator interrupt callback.
+  * @param  hcomp: COMP handle
+  * @retval None
+  */
+void HAL_COMP_TriggerCallback(COMP_HandleTypeDef *hcomp)
+{
+  /* Toggle LED1 */
+	  HAL_GPIO_WritePin(Status_LED_GPIO_Port, Status_LED_Pin, GPIO_PIN_SET);
+}
+
+
+/**
   * @brief LCD Update routine, update current brightness, in perthousand
   * @retval None
   */
 void UpdateLCDBrightness(uint32_t brightness)
 {
-
 	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, brightness);
-
-
 }
 
 
@@ -450,7 +465,7 @@ static void MX_COMP1_Init(void)
   hcomp1.Init.BlankingSrce = COMP_BLANKINGSRC_NONE;
   hcomp1.Init.Mode = COMP_POWERMODE_HIGHSPEED;
   hcomp1.Init.WindowMode = COMP_WINDOWMODE_DISABLE;
-  hcomp1.Init.TriggerMode = COMP_TRIGGERMODE_NONE;
+  hcomp1.Init.TriggerMode = COMP_TRIGGERMODE_IT_RISING_FALLING;
   if (HAL_COMP_Init(&hcomp1) != HAL_OK)
   {
     Error_Handler();
@@ -484,7 +499,7 @@ static void MX_COMP2_Init(void)
   hcomp2.Init.BlankingSrce = COMP_BLANKINGSRC_NONE;
   hcomp2.Init.Mode = COMP_POWERMODE_HIGHSPEED;
   hcomp2.Init.WindowMode = COMP_WINDOWMODE_COMP1_INPUT_PLUS_COMMON;
-  hcomp2.Init.TriggerMode = COMP_TRIGGERMODE_NONE;
+  hcomp2.Init.TriggerMode = COMP_TRIGGERMODE_IT_RISING_FALLING;
   if (HAL_COMP_Init(&hcomp2) != HAL_OK)
   {
     Error_Handler();
