@@ -131,20 +131,15 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     PC5     ------> ADC1_IN14
     PB0     ------> ADC1_IN15 
     */
-    GPIO_InitStruct.Pin = Touch_XM_Pin;
+    GPIO_InitStruct.Pin = Touch_XM_Pin|Trigger_Analog_Comp_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG_ADC_CONTROL;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
-    HAL_GPIO_Init(Touch_XM_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = Charger_Current_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG_ADC_CONTROL;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(Charger_Current_GPIO_Port, &GPIO_InitStruct);
-
-    GPIO_InitStruct.Pin = Trigger_Analog_Comp_Pin;
-    GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    HAL_GPIO_Init(Trigger_Analog_Comp_GPIO_Port, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = Trigger_Analog_In_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_ANALOG_ADC_CONTROL;
@@ -307,10 +302,13 @@ void HAL_COMP_MspInit(COMP_HandleTypeDef* hcomp)
     PC5     ------> COMP1_INP 
     */
     GPIO_InitStruct.Pin = Trigger_Analog_Comp_Pin;
-    GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+    GPIO_InitStruct.Mode = GPIO_MODE_ANALOG_ADC_CONTROL;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(Trigger_Analog_Comp_GPIO_Port, &GPIO_InitStruct);
 
+    /* COMP1 interrupt Init */
+    HAL_NVIC_SetPriority(COMP_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(COMP_IRQn);
   /* USER CODE BEGIN COMP1_MspInit 1 */
 
   /* USER CODE END COMP1_MspInit 1 */
@@ -320,6 +318,9 @@ void HAL_COMP_MspInit(COMP_HandleTypeDef* hcomp)
   /* USER CODE BEGIN COMP2_MspInit 0 */
 
   /* USER CODE END COMP2_MspInit 0 */
+    /* COMP2 interrupt Init */
+    HAL_NVIC_SetPriority(COMP_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(COMP_IRQn);
   /* USER CODE BEGIN COMP2_MspInit 1 */
 
   /* USER CODE END COMP2_MspInit 1 */
@@ -348,6 +349,15 @@ void HAL_COMP_MspDeInit(COMP_HandleTypeDef* hcomp)
     */
     HAL_GPIO_DeInit(Trigger_Analog_Comp_GPIO_Port, Trigger_Analog_Comp_Pin);
 
+    /* COMP1 interrupt DeInit */
+  /* USER CODE BEGIN COMP1:COMP_IRQn disable */
+    /**
+    * Uncomment the line below to disable the "COMP_IRQn" interrupt
+    * Be aware, disabling shared interrupt may affect other IPs
+    */
+    /* HAL_NVIC_DisableIRQ(COMP_IRQn); */
+  /* USER CODE END COMP1:COMP_IRQn disable */
+
   /* USER CODE BEGIN COMP1_MspDeInit 1 */
 
   /* USER CODE END COMP1_MspDeInit 1 */
@@ -357,6 +367,16 @@ void HAL_COMP_MspDeInit(COMP_HandleTypeDef* hcomp)
   /* USER CODE BEGIN COMP2_MspDeInit 0 */
 
   /* USER CODE END COMP2_MspDeInit 0 */
+
+    /* COMP2 interrupt DeInit */
+  /* USER CODE BEGIN COMP2:COMP_IRQn disable */
+    /**
+    * Uncomment the line below to disable the "COMP_IRQn" interrupt
+    * Be aware, disabling shared interrupt may affect other IPs
+    */
+    /* HAL_NVIC_DisableIRQ(COMP_IRQn); */
+  /* USER CODE END COMP2:COMP_IRQn disable */
+
   /* USER CODE BEGIN COMP2_MspDeInit 1 */
 
   /* USER CODE END COMP2_MspDeInit 1 */

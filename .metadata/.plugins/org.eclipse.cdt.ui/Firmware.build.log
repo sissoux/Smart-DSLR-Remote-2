@@ -1,9 +1,20 @@
-17:10:13 **** Incremental Build of configuration Debug for project Firmware ****
+14:07:34 **** Incremental Build of configuration Debug for project Firmware ****
 make all 
 Building file: ../Core/Src/main.c
 Invoking: MCU GCC Compiler
 C:\Users\adamiens\Documents\GitHub\Smart-DSLR-Remote-2\Firmware\Debug
 arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 '-D__weak=__attribute__((weak))' '-D__packed=__attribute__((__packed__))' -DUSE_HAL_DRIVER -DSTM32L486xx -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Core/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Device/ST/STM32L4xx/Include" -I"C:/Users/adamiens/Documents/GitHub/Smart-DSLR-Remote-2/Firmware/Drivers/CMSIS/Include"  -Og -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fmessage-length=0 -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" -o "Core/Src/main.o" "../Core/Src/main.c"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:159:3: warning: implicit declaration of function 'UpdateLCDBrightness' [-Wimplicit-function-declaration]
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:864:6: warning: conflicting types for 'UpdateLCDBrightness'
+ void UpdateLCDBrightness(uint32_t brightness)
+      ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:159:3: note: previous implicit declaration of 'UpdateLCDBrightness' was here
+   UpdateLCDBrightness(0);
+   ^~~~~~~~~~~~~~~~~~~
 Finished building: ../Core/Src/main.c
  
 Building target: Firmware.elf
@@ -16,8 +27,8 @@ Generating hex and Printing size information:
 arm-none-eabi-objcopy -O ihex "Firmware.elf" "Firmware.hex"
 arm-none-eabi-size "Firmware.elf"
    text	   data	    bss	    dec	    hex	filename
-  16048	     24	   2344	  18416	   47f0	Firmware.elf
+  16392	     24	   2344	  18760	   4948	Firmware.elf
  
 
-17:10:14 Build Finished (took 1s.814ms)
+14:07:36 Build Finished (took 1s.878ms)
 

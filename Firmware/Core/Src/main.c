@@ -97,6 +97,8 @@ static void MX_ADC3_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_COMP2_Init(void);
 static void MX_DAC1_Init(void);
+
+uint8_t DetectFlag = 0;
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -154,15 +156,14 @@ int main(void)
   HAL_GPIO_WritePin(Reg_3V3_EN_GPIO_Port, Reg_3V3_EN_Pin, GPIO_PIN_SET);
   HAL_GPIO_WritePin(Status_LED_GPIO_Port, Status_LED_Pin, GPIO_PIN_RESET);
   HAL_GPIO_WritePin(IR_LED_GPIO_Port, IR_LED_Pin, GPIO_PIN_RESET);
+  UpdateLCDBrightness(0);
 
   HAL_GPIO_WritePin(Trigger_source_sel1_GPIO_Port, Trigger_source_sel1_Pin, GPIO_PIN_SET);	//SET : Mic in RESET : Light in
   HAL_GPIO_WritePin(Trigger_source_sel2_GPIO_Port, Trigger_source_sel2_Pin, GPIO_PIN_SET);		//SET: Internal RESET : External
 
   HAL_DAC_SetValue(&hdac1, DAC1_CHANNEL_1, DAC_ALIGN_12B_L, 2000);
   HAL_DAC_SetValue(&hdac1, DAC1_CHANNEL_2, DAC_ALIGN_12B_L, 2100);
-  HAL_COMP_GetOutputLevel(&hcomp1);
-  //HAL_COMP_Start_IT(&hcomp1);
-
+  HAL_COMP_Start_IT(&hcomp1);
   //HAL_GPIO_WritePin(Backlight_pwm_GPIO_Port,Backlight_pwm_Pin,GPIO_PIN_SET);
   /* USER CODE END 2 */
 
@@ -170,9 +171,8 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  //HAL_GPIO_TogglePin(Status_LED_GPIO_Port, Status_LED_Pin);
 	  HAL_Delay(1000);
-	  //BacklightBrightness = (BacklightBrightness+10)%1000;
+	  HAL_COMP_Start_IT(&hcomp1);
 
     /* USER CODE END WHILE */
 
@@ -180,28 +180,6 @@ int main(void)
   }
   /* USER CODE END 3 */
 }
-
-/**
-  * @brief  Comparator interrupt callback.
-  * @param  hcomp: COMP handle
-  * @retval None
-  */
-void HAL_COMP_TriggerCallback(COMP_HandleTypeDef *hcomp)
-{
-  /* Toggle LED1 */
-	  HAL_GPIO_WritePin(Status_LED_GPIO_Port, Status_LED_Pin, GPIO_PIN_SET);
-}
-
-
-/**
-  * @brief LCD Update routine, update current brightness, in perthousand
-  * @retval None
-  */
-void UpdateLCDBrightness(uint32_t brightness)
-{
-	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, brightness);
-}
-
 
 /**
   * @brief System Clock Configuration
@@ -689,7 +667,7 @@ static void MX_TIM2_Init(void)
     Error_Handler();
   }
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 100;
+  sConfigOC.Pulse = 500;
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_2) != HAL_OK)
@@ -864,16 +842,29 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(BLE_HW_Wake_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : BLE_HW_Wake_Pin
-  GPIO_InitStruct.Pin = Backlight_pwm_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
-  HAL_GPIO_Init(Backlight_pwm_GPIO_Port, &GPIO_InitStruct);*/
-
 }
 
 /* USER CODE BEGIN 4 */
+/**
+ * @brief  Comparator interrupt callback.
+ * @param  hcomp: COMP handle
+ * @retval None
+ */
+
+void HAL_COMP_TriggerCallback(COMP_HandleTypeDef *hcomp)
+{
+	  HAL_GPIO_TogglePin(Status_LED_GPIO_Port, Status_LED_Pin);
+	  HAL_COMP_Stop_IT(&hcomp1);
+}
+
+/**
+  * @brief LCD Update routine, update current brightness, in perthousand
+  * @retval None
+  */
+void UpdateLCDBrightness(uint32_t brightness)
+{
+	  __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, brightness);
+}
 
 /* USER CODE END 4 */
 
